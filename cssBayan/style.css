@@ -44,7 +44,6 @@ ul {
   transition: .4s all ease-in-out;
 }
 .slide__state {
-  font-size: 26px;
   font-weight: bold;
   display: none;
   position: absolute;
@@ -77,4 +76,25 @@ ul {
 }
 .bayan__list:hover .slide__state{
   display: block;
+}
+
+
+@media (max-width: 1180px) {
+  .heading {
+    font-size: 25px;
+  }
+
+  .slide__name {
+    font-size: 20px;
+  }
+
+  .slide__state {
+    top: 0px;
+  }
+}
+
+@media (max-width: 568px) {
+  .slide__name {
+    font-size: 15px;
+  }
 }
