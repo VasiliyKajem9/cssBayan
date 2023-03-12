@@ -1,0 +1,62 @@
+*, *::before, *::after{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.page {
+  background-color: rgba(100, 100, 100, 0.705);
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.page .page__heading {
+  margin-bottom: 20px;
+}
+
+.heading {
+  border-bottom: 1px solid gray;
+}
+
+
+.bayan__slide {
+  max-width: 700px;
+  margin: auto;
+}
+
+.slide {
+  border-bottom: 1px solid gray;
+  padding: 10px 0 20px;
+}
+
+.slide__name {
+  font-size: 26px;
+  color: tan;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  transition: .4s all ease-in-out;
+}
+.slide__state {
+  font-size: 26px;
+  font-weight: bold;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 9px;
+}
+
+.slide__img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  transition: .3s all ease-in-out;
+} 
+
+
