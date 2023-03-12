@@ -53,10 +53,28 @@ ul {
 }
 
 .slide__img {
-  width: 100%;
+  width: 0%;
   max-width: 500px;
   height: auto;
   transition: .3s all ease-in-out;
 } 
 
+.slide__name, .slide__state:hover {
+  cursor: pointer;
+}
 
+.slide__state:checked ~ .slide__img {
+  width: 100%;
+}
+
+.slide__name:hover .slide__img {
+  width: 100%;
+}
+
+
+.bayan__list:hover .slide__name{
+  color: #fff;
+}
+.bayan__list:hover .slide__state{
+  display: block;
+}
